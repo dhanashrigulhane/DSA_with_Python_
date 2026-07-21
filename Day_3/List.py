@@ -37,11 +37,11 @@
 
 #Remove duplicates element from a list
 #take input from user
-# li = []
-# size = int(input("Enter the size of list : "))
-# for i in range(0,size):
-#     li.append(int(input()))
-# print(li)
+li = []
+size = int(input("Enter the size of list : "))
+for i in range(0,size):
+    li.append(int(input()))
+print(li)
 # for i in li:
 #     if li.count(i) > 1:
 #         li.remove(i)

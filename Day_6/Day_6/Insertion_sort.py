@@ -16,16 +16,16 @@
 
 
 #counting the vowels and consonants in the given string
-# str1=input("Enter the string : ")
-# count_vowels =0
-# count_cons=0
-# vowels="aeiouAEIOU"
-# for i in str1:
-#     if i in vowels:
-#         count_vowels+=1
-#     else:
-#         count_cons+=1
-# print("Vowels : ",count_vowels)    
-# print("Constonants : ",count_cons)        
+str1=input("Enter the string : ")
+count_vowels =0
+count_cons=0
+vowels="aeiouAEIOU"
+for i in str1:
+    if i in vowels:
+        count_vowels+=1
+    else:
+        count_cons+=1
+print("Vowels : ",count_vowels)    
+print("Constonants : ",count_cons)        
 
      
